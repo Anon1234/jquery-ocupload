@@ -31,7 +31,7 @@ The enctype attribute of the form, it is usually a good idea to leave this as de
 
 The form action attribute, the page that will do the processing on the server side.
 
-### `accept` (default: `*/*`)
+### `accept` (default: `"*/*"`)
 
 The accept attribute specifies the types of files that the server accepts (that can be submitted through a file upload).
 
