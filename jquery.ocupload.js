@@ -33,6 +33,7 @@
       name: 'file',
       enctype: 'multipart/form-data',
       action: '',
+      accept: '*/*',
       autoSubmit: true,
       onSubmit: function () {},
       onComplete: function () {},
@@ -76,6 +77,7 @@
     /** File Input */
     var input = $("<input>", {
       name: options.name,
+      accept: options.accept,
       "type": "file"
     }).css({
       position: 'absolute',
